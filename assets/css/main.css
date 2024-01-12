@@ -854,7 +854,7 @@ section {
   box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.1);
 }
 
-.hero .sign-up-form .form-control {
+/* .hero .sign-up-form .form-control {
   border: none;
 }
 
@@ -862,7 +862,7 @@ section {
 .hero .sign-up-form .form-control:focus {
   outline: none;
   box-shadow: none;
-}
+} */
 
 .hero .sign-up-form input[type=submit] {
   box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.2);
@@ -2886,4 +2886,63 @@ section {
 .blog-details .comments .reply-form .btn-primary:hover {
   color: var(--contrast-color);
   background-color: rgba(var(--primary-color-rgb), 0.8);
+}
+
+.subhead__list_visible {
+  display: grid;
+}
+
+.subhead__list {
+  list-style: none;
+  justify-content: center;
+  grid-template-columns: auto auto auto auto;
+  padding: 0 0 0.5em;
+}
+
+.prod-icon_min {
+  width: 1.56125em;
+  height: 1.56125em;
+  border-radius: 0.25em;
+}
+
+.prod-icon {
+  position: relative;
+  display: inline-block;
+  width: 2.125em;
+  height: 2.125em;
+  border-radius: 0.5em;
+  background-color: #fff;
+  color: #12967F;
+  border: 1px solid #AAAAAA;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.subhead__icon {
+  flex-shrink: 0;
+  margin-right: 0.625em;
+}
+
+.subhead__link-text {
+  white-space: nowrap;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.subhead__link {
+  display: flex;
+  align-items: center;
+  padding: 0.5em 0.5em;
+  text-decoration: none;
+  color: currentColor;
+  position: relative;
+  z-index: 1;
+  transition: background 0.3s, color 0.3s;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }

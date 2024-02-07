@@ -2899,6 +2899,31 @@ section {
   padding: 0 0 0.5em;
 }
 
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .subhead__list {
+    grid-template-columns: auto auto auto;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .subhead__list {
+    padding: 0.5em 0;
+    justify-content: space-around;
+  }
+}
+
+@media (max-width: 575.98px){
+  .subhead__list {
+    grid-template-columns: auto auto;
+  }
+}
+
+@media (max-width: 325.98px){
+  .subhead__list {
+    grid-template-columns: auto;
+  }
+}
+
 .prod-icon_min {
   width: 1.56125em;
   height: 1.56125em;
@@ -2942,7 +2967,7 @@ section {
 }
 
 .footer {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
+  /* position: fixed; */
+  /* bottom: 0; */
+  /* width: 100%; */
 }
